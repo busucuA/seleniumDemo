@@ -1,0 +1,28 @@
+Question I
+
+
+Is there a character limit for the username and password?
+Are special character needed for the username and password?
+If there are special characters, is there a limit to the characters used?
+Is there an attempt limit in case the password or username has been incorectly typed?
+
+Question II
+
+T1
+
+Feature: Login function
+Given:  I have a good login and password. 
+When:	I enter username as username. 
+		And I enter the password as password 
+		And click login
+Then: 	I should be redirected to the platforms home page
+
+
+T2
+
+Feature: Bad login
+Given:	I have a bad login and password
+When:	I enter username as username.
+		And i enter password as password
+		And click login
+Then:	I should recieve an error informing that the password or username is incorrect.
